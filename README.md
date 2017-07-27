@@ -1,14 +1,35 @@
-# ProReports in docker
+# ProReports in Docker
 
 This is dockerized version of ProReports.
 
 # What is ProReports?
 
-ProReports - is a computer system designed to generate reports in popular office formats - PDF, XLS, RTF, HTML, TXT, XML, CSV, PNG, GIF. 
-These reports are generated based on the definition in the internal database system. ProReports supports jrxml (JasperReport) format. 
-This type of report templates can be prepared in external editor, such as iReport. Also user can prepare report in internal format of 
-ProReports (simple Visual Programming Language mixed with PHP and JAVA). This give him very high flexibility because in this format there
-are almost no limits and this is the true power of this simple system.To the system we can attach own plug-ins written in PHP or JAVA.
+This is simple reporting system  designed to generate reports in popular office formats - PDF, XLS, RTF, HTML, TXT, XML, CSV, PNG, GIF. 
+
+# Futures
+
+* multiple SQL queries in one report,
+* support for temporary tables,
+* support for stored procedures (PL/SPL),
+* execute not SELECT sql command,
+* multilingualism (UTF-8 support) in reports,
+* multiplatform (AIX, Linux, Solaris, Windows)
+* support reports based on RTF templates,
+* support for popular formats (PDF, XLS, RTF, HTML,TXT,XML,CSV, PNG, GIF),
+* digitally signed PDF reports,
+* support for multiple databases,
+* dashboards for managers,
+* ability to extend the functionality by adding modules PHP and JAVA,
+* access to the reports by the browser WWW,
+* internal schedule generation of reports,
+* module for automatically send reports (e-mail) with GPG encryption, ZIP compression,
+* connection pooling for databases,
+* ability to generate reports from the command line (windows and unix),
+* possibility of mass generation and processing of reports,
+* definable forms for parameters of reports,
+* support for permissions to reports,
+* data filters to generate reports,
+* multithreaded execution of SQL queries.
 
 # Usage
 You can run the default proreports command simply:
