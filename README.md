@@ -1,9 +1,5 @@
 # ProReports in Docker
 
-[![Docker Stars](https://img.shields.io/docker/stars/gemail/docker-proreports.svg)][this.project_docker_hub_url]
-[![Docker Pulls](https://img.shields.io/docker/pulls/gemail/docker-proreports.svg)][this.project_docker_hub_url]
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/gemail/docker-proreports/latest.svg)][this.project_docker_hub_url]
-
 This is dockerized version of ProReports.
 
 # What is ProReports?
@@ -43,7 +39,7 @@ docker run -itd -p 8080:8080 --name proreports gemail/docker-proreports
 ```
 # Access to ProReports 
 
-Run www borwser with url: [http://127.0.0.1:8080/rep]() and log on:
+Run www borwser with url: [http://127.0.0.1:8080/rep][] and log on:
 
 ```
 Login:    admin
