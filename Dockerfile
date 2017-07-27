@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com)
+MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
 ENV VERSION=3.1.29h.r29
