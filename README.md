@@ -1,7 +1,7 @@
 # ProReports in Docker
-[![Docker Stars](https://img.shields.io/docker/stars/gemail/docker-proreports.svg)][this.project_docker_hub_url]
-[![Docker Pulls](https://img.shields.io/docker/pulls/gemail/docker-proreports.svg)][this.project_docker_hub_url]
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/gemail/docker-proreports/latest.svg)][this.project_docker_hub_url]
+[![Docker Stars](https://img.shields.io/docker/stars/gemail/docker-proreports.svg)]
+[![Docker Pulls](https://img.shields.io/docker/pulls/gemail/docker-proreports.svg)]
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/gemail/docker-proreports/latest.svg)]
 
 This is dockerized version of ProReports.
 
