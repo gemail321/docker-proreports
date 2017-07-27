@@ -39,7 +39,7 @@ docker run -itd -p 8080:8080 --name proreports gemail/docker-proreports
 ```
 # Access to ProReports 
 
-Run www borwser with url: [http://127.0.0.1:8080/rep][] and log on:
+Run www borwser with url: [http://127.0.0.1:8080/rep] and log on:
 
 ```
 Login:    admin
