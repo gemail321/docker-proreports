@@ -1,7 +1,4 @@
 #!/bin/bash
-source .env
 
 docker build \
- --build-arg VERSION=${VERSION} \
- --build-arg JAVA_HOME=${JAVA_HOME} \
- -t ${IMAGE_NAME} .
+ -t gemail/docker-proreports .
