@@ -10,7 +10,7 @@ This type of report templates can be prepared in external editor, such as iRepor
 ProReports (simple Visual Programming Language mixed with PHP and JAVA). This give him very high flexibility because in this format there
 are almost no limits and this is the true power of this simple system.To the system we can attach own plug-ins written in PHP or JAVA.
 
-## Usage
+# Usage
 You can run the default proreports command simply:
 
 ```
