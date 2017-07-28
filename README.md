@@ -6,7 +6,7 @@ This is dockerized version of ProReports.
 
 This is simple reporting system  designed to generate reports in popular office formats - PDF, XLS, RTF, HTML, TXT, XML, CSV, PNG, GIF. 
 
-# Futures
+# Features
 
 * multiple SQL queries in one report,
 * support for temporary tables,
