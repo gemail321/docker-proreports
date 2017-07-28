@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
