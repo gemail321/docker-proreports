@@ -51,5 +51,3 @@ Password: admin
 
 * [Official repository for ProReports](https://sourceforge.net/projects/proreports/?source=navbar)
 * [Wiki help for ProReports](http://www.gemail.punkt.pl/pmwiki_en/)
-
-
