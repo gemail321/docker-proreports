@@ -12,4 +12,4 @@ RUN cd /usr/ && \
     rm -f ProReports.utf8-lin.tar.gz && \
     cd /usr/ProReports.utf8 
 WORKDIR /usr/ProReports.utf8
-CMD ["/usr/ProReports.utf8/startrepo.sh && bash"]	
+CMD ["startrepo.sh"]	
