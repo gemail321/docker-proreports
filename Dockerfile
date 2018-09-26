@@ -2,7 +2,7 @@ FROM centos:latest
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
-ENV VERSION=3.1.29h.r46
+ENV VERSION=3.1.29h.r47
 ENV JAVA_HOME=/usr/ProReports.utf8/JRE/jre1.8.0_121
 
 RUN cd /usr/ && \
