@@ -9,6 +9,7 @@ This is simple reporting system  designed to generate reports in popular office 
 # Features
 
 * multiple SQL queries in one report,
+* multiple Datasources in one report,
 * support for temporary tables,
 * support for stored procedures (PL/SPL),
 * execute not SELECT sql command,
