@@ -9,7 +9,7 @@ EXPOSE 8080
 
 RUN cd /usr/ && \
     yum -y install wget && \
-    wget "https://netix.dl.sourceforge.net/project/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" &&\
+    wget "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" &&\
     tar xvzf ProReports.utf8-lin.tar.gz && \
     rm -f ProReports.utf8-lin.tar.gz && \
     cd /usr/ProReports.utf8 
