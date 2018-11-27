@@ -14,4 +14,4 @@ RUN cd /usr/ && \
     rm -f ProReports.utf8-lin.tar.gz && \
     cd /usr/ProReports.utf8 
 WORKDIR /usr/ProReports.utf8
-CMD ["/bin/sh","-c","/usr/ProReports.utf8/startrepo.sh"]
+CMD ["/bin/sh","-c","/usr/ProReports.utf8/startrepo.sh && /bin/bash"]
