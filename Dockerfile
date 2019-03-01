@@ -6,6 +6,7 @@ ENV VERSION=3.1.29h.r52
 ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_181
 ENV TZ=Europe/Warsaw
 
+
 EXPOSE 8080
 
 RUN cd /usr/ && \
