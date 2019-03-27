@@ -16,4 +16,3 @@ RUN cd /usr/ && \
     cd /usr/ProReports.utf8 
 WORKDIR /usr/ProReports.utf8
 CMD ["/bin/sh","-c","/usr/ProReports.utf8/start-docker.sh"]
-
