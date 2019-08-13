@@ -44,6 +44,19 @@ if you want to add own JDBC drivers to container run command:
 ```
 docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gemail/docker-proreports
 ```
+# List of environment variables
+||border="1" style="border-collapse:collapse" cellpadding="5" width=86%
+||!Name ||!Defaul value||!Used with --config||!Description ||
+||ENV_REPO_LIBJAR||libjar||No||Directory with own java library or jdbc drivers||
+||ENV_REPO_JETTY||jetty.xml||Yes||Configuration file for databases as JNDI and for server JETTY||
+||ENV_REPO_XML||repo.xml||Yes||Configuration file for ProReports server||
+||ENV_REPO_VER||version.php||Yes||Configuration file for web application ProReports||
+||ENV_KRB5_REALM||xxx||No||Configuration fo KERBEROS authentication||
+||ENV_KRB5_KDC||-xxx||No||Configuration fo KERBEROS authentication||
+||ENV_MAIL_DBG||false||No||Debug for email sending||
+||ENV_JMX_PORT||6969||No||Port setting for JMX||
+||ENV_MS_MEMORY||128M||No||Setting parametr -Xms for java||
+||ENV_MX_MEMORY||1024M||No||Setting parametr -Xmx for java||
 
 # Access to ProReports 
 
