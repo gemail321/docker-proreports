@@ -47,9 +47,9 @@ docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gema
 # List of environment variables
 
 * ENV_REPO_LIBJAR (default: libjar) -  Directory with own java library or jdbc drivers
-* ENV_REPO_JETTY default:jetty.xml) - Configuration file for databases as JNDI and for server JETTY (used together --config)
-* ENV_REPO_XML (default:repo.xml) - Configuration file for ProReports server (used together --config)
-* ENV_REPO_VER (default:version.php) - Configuration file for web application ProReports (used together --config)
+* ENV_REPO_JETTY default:jetty.xml) - Configuration file for databases as JNDI and for server JETTY (used together with --config)
+* ENV_REPO_XML (default:repo.xml) - Configuration file for ProReports server (used together with --config)
+* ENV_REPO_VER (default:version.php) - Configuration file for web application ProReports (used together with --config)
 * ENV_KRB5_REALM (default:xxx) - Configuration fo KERBEROS authentication
 * ENV_KRB5_KDC (default:-xxx) - Configuration fo KERBEROS authentication
 * ENV_MAIL_DBG (default:false) - Debug for email sending
