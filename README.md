@@ -50,8 +50,8 @@ docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gema
 * ENV_REPO_JETTY default:jetty.xml) - Configuration file for databases as JNDI and for server JETTY (used together with --config)
 * ENV_REPO_XML (default:repo.xml) - Configuration file for ProReports server (used together with --config)
 * ENV_REPO_VER (default:version.php) - Configuration file for web application ProReports (used together with --config)
-* ENV_KRB5_REALM (default:xxx) - Configuration fo KERBEROS authentication
-* ENV_KRB5_KDC (default:-xxx) - Configuration fo KERBEROS authentication
+* ENV_KRB5_REALM (default:xxx) - Configuration for KERBEROS authentication
+* ENV_KRB5_KDC (default:-xxx) - Configuration for KERBEROS authentication
 * ENV_MAIL_DBG (default:false) - Debug for email sending
 * ENV_JMX_PORT (default:6969) - Port setting for JMX
 * ENV_MS_MEMORY (default:128M) - Setting parametr -Xms for java
