@@ -32,6 +32,11 @@ This is simple reporting system  designed to generate reports in popular office 
 * data filters to generate reports,
 * multithreaded execution of SQL queries.
 
+# Limits
+
+* Annual limit of reports is set to 10 
+* The limit can be increased by making a donation to the author
+
 # Usage
 You can run the default proreports command simply:
 
