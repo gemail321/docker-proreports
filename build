@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker build \
- -t gemail/docker-proreports .
+ -t gemail/docker-proreports -t gemail/docker-proreports:3.1.29h.r56 .
