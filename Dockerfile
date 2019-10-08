@@ -6,7 +6,6 @@ ENV VERSION=3.1.29h.r56
 ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_181
 ENV TZ=Europe/Warsaw
 
-TAG gmeail/docker-proreports:${VERSION}
 EXPOSE 8080
 
 RUN cd /usr/ && \
