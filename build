@@ -2,4 +2,4 @@
 
 docker build \
  -t gemail/docker-proreports  .
-docker tag  gemail/docker-proreports:3.1.29h.r56 email/docker-proreports:latest
+docker tag  gemail/docker-proreports:3.1.29h.r56 gemail/docker-proreports:latest
