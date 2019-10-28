@@ -34,7 +34,7 @@ This is simple reporting system  designed to generate reports in popular office 
 
 # Limits
 
-* Annual limit of reports is set to 10 
+* Annual limit of reports is set to 5 
 * The limit can be increased by making a donation to the author on site [Wiki help for ProReports](https://gemail.ogicom.pl/pmwiki_en/)
 
 # Usage
