@@ -3,7 +3,7 @@ MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com)
 
 ENV PATH=$PATH:/usr/ProReports.utf8
 ENV VERSION=3.1.29h.r61
-ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_181
+ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_275
 ENV TZ=Europe/Warsaw
 
 EXPOSE 8080
