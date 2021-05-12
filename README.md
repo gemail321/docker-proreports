@@ -54,8 +54,8 @@ docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gema
 * ENV_JAVA_OPTS - Additional java options
 * ENV_REPO_LIBJAR (default: libjar) -  Directory with own java library or jdbc drivers
 * ENV_REPO_JETTY default:jetty.xml) - Configuration file for databases as JNDI and for server JETTY (used together with --config)
-* ENV_REPO_KEYSTORE default:jetty.xml) - Configuration file  keystore  for server JETTY (used together with --config)
-* ENV_REPO_WEBDEF default:jetty.xml) - Configuration file webdefault.xml for server JETTY (used together with --config)
+* ENV_REPO_KEYSTORE default:keystore) - Configuration file  keystore  for server JETTY (used together with --config)
+* ENV_REPO_WEBDEF default:webdefault.xml) - Configuration file webdefault.xml for server JETTY (used together with --config)
 * ENV_REPO_WEBXML default:web.xml) - Configuration file for databases as JNDI and for server JETTY (used together with --config)
 * ENV_REPO_WEBPHP default:php.ini) - Configuration file for PHP for Quercus (used together with --config)
 * ENV_REPO_XML (default:repo.xml) - Configuration file for ProReports server (used together with --config)
