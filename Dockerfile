@@ -9,6 +9,8 @@ ENV TZ=Europe/Warsaw
 EXPOSE 8080
 
 RUN cd /usr/ && \
+    /usr/bin/firewall-cmd --permanent --zone=public --add-port=8080/tcp && \
+    /usr/bin/firewall-cmd --reload && \
     yum -y install wget && \
     wget "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" &&\
     tar xvzf ProReports.utf8-lin.tar.gz && \
