@@ -1,4 +1,4 @@
-FROM centos:centos8
+FROM centos:8
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
@@ -9,7 +9,6 @@ ENV TZ=Europe/Warsaw
 EXPOSE 8080
 
 RUN cd /usr/ && \
-    systemctl stop firewalld && \
     yum -y install wget && \
     wget "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" &&\
     tar xvzf ProReports.utf8-lin.tar.gz && \
