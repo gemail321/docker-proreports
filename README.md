@@ -126,7 +126,7 @@ cert_cert=/rsync/server.crt
 
 where files ca.crt, server.key, server.crt must be taken from the directory `/etc/kubernetes/pki/etcd`. If you launch ProReports in kubernetes cluster it's good idea to put these files as secret (together with rsync-base.ini).
 
-Example of lounch container:
+Example command to start container:
 ```
 docker run -itd -p 8080:8080 -v /opt/rsync-dir/:/rsync  -e ENV_RSYNC_BASE=/rsync/rsync-base.ini --name proreports gemail/docker-proreports
 ```
