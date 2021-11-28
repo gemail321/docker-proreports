@@ -67,6 +67,7 @@ docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gema
 * ENV_MS_MEMORY (default:128M) - Setting parametr -Xms for java
 * ENV_MX_MEMORY (default:1024M) - Setting parametr -Xmx for java
 * ENV_CMD_BEFORE - Setting command executed before launching ProReports 
+* ENV_KPV_MOUNT - Setting for mountpoint in kubernetes cluster persistent volume (if exist), for example proreports 
 * ENV_RSYNC_BASE - Setting path to file with rsync-dir configuration. This meachanism allows you to replicate database files of ProReports to the distributed ETCD (kubernetes cluster) or REDIS database. Thanks to this, the system remembers changes after restarting the container, even without applying persistent volume.
 
 ```ini
