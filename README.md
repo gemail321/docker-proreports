@@ -87,7 +87,7 @@ mtime_cycle_time=15
 mtime_info=False
 case_sensitive=True
 [ETCD]
-hosts=ADDRESS_IP1[,ADSRESS_IP2,ADDRES_IP3,...] 
+hosts=ADDRESS_IP1[,ADDRESS_IP2,ADDRESS_IP3,...] 
 ports=2379[,2379,2379,...]
 threads=2
 ca_cert=/rsync/ca.crt
