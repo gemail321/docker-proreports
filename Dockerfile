@@ -9,7 +9,7 @@ ENV TZ=Europe/Warsaw
 EXPOSE 8080
 
 RUN cd /usr/ && \
-    curl "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" &&\
+    curl "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" -o ProReports.utf8-lin.tar.gz &&\
     tar xvzf ProReports.utf8-lin.tar.gz && \
     rm -f ProReports.utf8-lin.tar.gz && \
     useradd -U prorepo && \
