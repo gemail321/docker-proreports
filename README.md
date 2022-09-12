@@ -157,5 +157,5 @@ Password: admin
 
 # Related links
 
-* [Official repository for ProReports](https://sourceforge.net/projects/proreports/?source=navbar)
-* [Wiki help for ProReports](https://gemail.ogicom.pl/pmwiki_en/)
+* [Official site of ProReports](https://www.proreports.pl)
+* [Wiki help for ProReports](https://wiki.proreports.pl/)
