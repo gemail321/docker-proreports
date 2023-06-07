@@ -18,4 +18,3 @@ RUN cd /usr/ && \
 USER prorepo
 WORKDIR /usr/ProReports.utf8
 CMD ["/bin/sh","-c","/usr/ProReports.utf8/start-docker.sh"]
-
