@@ -1,4 +1,4 @@
-FROM rockylinux
+FROM rockylinux:9.3
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
