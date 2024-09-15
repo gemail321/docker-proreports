@@ -1,4 +1,4 @@
-FROM rockylinux:9.3-minimal
+FROM rockylinux:9.3
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
@@ -10,7 +10,6 @@ EXPOSE 8080
 
 RUN cd /usr/ && \
     curl "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" -o ProReports.utf8-lin.tar.gz &&\
-    dnf install -y tar.x86_64\
     tar xvzf ProReports.utf8-lin.tar.gz && \
     rm -f ProReports.utf8-lin.tar.gz && \
     useradd -U prorepo && \
