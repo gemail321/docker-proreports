@@ -1,4 +1,4 @@
-FROM rockylinux:latest
+FROM rockylinux:9.3.20231119-minimal
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
