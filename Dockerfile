@@ -1,4 +1,4 @@
-FROM rockylinux:9.3@sha256:d7be1c094cc5845ee815d4632fe377514ee6ebcf8efaed6892889657e5ddaaa6
+FROM rockylinux:9.3
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
