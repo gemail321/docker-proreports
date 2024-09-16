@@ -1,4 +1,4 @@
-FROM docker.io/rockylinux:9.3
+FROM docker.io/rockylinux:9.3@sha256:d644d203142cd5b54ad2a83a203e1dee68af2229f8fe32f52a30c6e1d3c3a9e0
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
