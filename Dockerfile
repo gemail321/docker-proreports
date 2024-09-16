@@ -1,4 +1,4 @@
-FROM redhat/ubi9:latest
+FROM redhat/ubi8:latest
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
