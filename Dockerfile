@@ -2,16 +2,14 @@ FROM redhat/ubi8:latest
 MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
-ENV VERSION=3.1.29h.r62
+ENV VERSION=3.1.29h.r64
 ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_432
 ENV TZ=Europe/Warsaw
 
 EXPOSE 8080
 
 RUN cd /usr/ && \
-    curl "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" -o ProReports.utf8-lin.tar.gz &&\
-    tar xvzf ProReports.utf8-lin.tar.gz && \
-    rm -f ProReports.utf8-lin.tar.gz && \
+    curl "https://s3.eu-central-1.amazonaws.com/proreports/ProReports-v${VERSION}-utf8/ProReports.utf8-lin.tar.gz" -o - | tar xvzf - &&\
     useradd -U prorepo && \
     chown -R prorepo:prorepo ProReports.utf8 && \
     cd /usr/ProReports.utf8 
