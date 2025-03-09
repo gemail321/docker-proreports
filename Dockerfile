@@ -1,5 +1,5 @@
 FROM redhat/ubi8:latest
-MAINTAINER Grzegorz Makowski (makowski.grzegorz@gmail.com) 
+MAINTAINER IT-DT team (service@it-dt.pl) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
 ENV VERSION=3.1.29h.r64
