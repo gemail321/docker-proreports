@@ -74,6 +74,7 @@ docker run -itd -p 8080:8080 -v /dir_with_drivers:/libjar --name proreports gema
 ```ini
 [MAIN]
 description=rsync-dir replicator
+license=XX:XX:XX:XX:XX:XX (you must bay license and set here)
 storedb=redis
 actions=restore,delete,mtime,start
 basedir=/usr/ProReports.utf8/BASE/
