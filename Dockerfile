@@ -1,4 +1,4 @@
-FROM redhat/ubi8:latest
+FROM redhat/ubi9:latest
 MAINTAINER IT-DT team (service@it-dt.pl) 
 
 ENV PATH=$PATH:/usr/ProReports.utf8
@@ -16,4 +16,5 @@ RUN cd /usr/ && \
 USER prorepo
 WORKDIR /usr/ProReports.utf8
 CMD ["/bin/sh","-c","/usr/ProReports.utf8/start-docker.sh"]
+
 
