@@ -3,7 +3,7 @@ MAINTAINER IT-DT team (service@it-dt.pl)
 
 ENV PATH=$PATH:/usr/ProReports.utf8
 ENV VERSION=3.1.29h.r64
-ENV RELEASE=20251130
+ENV RELEASE=20251227
 ENV JAVA_HOME=/usr/ProReports.utf8/JRE/openjdk1.8.0_472
 ENV TZ=Europe/Warsaw
 
@@ -17,3 +17,4 @@ RUN cd /usr/ && \
 USER prorepo
 WORKDIR /usr/ProReports.utf8
 CMD ["/bin/sh","-c","/usr/ProReports.utf8/start-docker.sh"]
+
